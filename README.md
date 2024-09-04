@@ -1,6 +1,6 @@
 # ALRNet
 The search results of ALRNet:
-<img src="imgs/ARFB1.png" width="80%">
+<img src="imgs/ARFB1.png" width="60%">
 ![ARFB1](imgs/ARFB1.png)
 ![ARFB2](imgs/ARFB2.png)
 ![ARFB3](imgs/ARFB3.png)
