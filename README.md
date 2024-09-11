@@ -6,9 +6,9 @@ The search results of ALRNet:
 <img src="imgs/ARFB3.png" width="60%">
 <img src="imgs/ARFB4.png" width="60%">
 <img src="imgs/ARFB5.png" width="60%">
-<img src="imgs/ACML34.png" width="60%">
-<img src="imgs/ACML45.png" width="60%">
-<img src="imgs/ASCF.png" width="60%">
+<img src="imgs/ACLM34.png" width="60%">
+<img src="imgs/ACLM45.png" width="60%">
+<img src="imgs/ACSF.png" width="60%">
 <img src="imgs/SBR.png" width="60%">
 <img src="imgs/EBR.png" width="60%">
 <img src="imgs/IM.png" width="60%">
