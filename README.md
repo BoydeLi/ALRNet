@@ -18,7 +18,7 @@ edge-assisted explicit and implicit refinement (EEIR) module, combining
 explicit priors with implicit search to create a dual-task structure for
 edge and segmentation knowledge interaction.
 
-<img src="imgs/ALRNet.png">
+<img src="imgs/ALRNet.jpg">
 
 ## ✈ Environmental Setups
 `PyTorch 1.8.0 + CUDA 11.1`. Please install corresponding PyTorch and CUDA versions.
@@ -71,6 +71,7 @@ If you use ALRNet in your research or wish to refer our work, please use the fol
   year={2025},
   organization={IEEE}
 }
+```
 
 ## ✈ The search results of ALRNet:
 <div align=center>
