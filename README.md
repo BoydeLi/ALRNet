@@ -50,8 +50,8 @@ To train or validate the ALRNet, please run:
 ```
 python train.py
 ```
-Download the Res2Net50 backbone weights at [HERE](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)
-Download our ALRNet weights at [HERE](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)  into `./checkpoints/Net_epoch_best.pth`, modify the para path in train.py, and run infer method in train.py to generate prediction masks.
+Download the Res2Net50 backbone weights at [HERE](https://pan.baidu.com/s/1e2iVJDZmDDHxYiP3o9fu8w), password: 2s5e.
+Download our ALRNet weights at ([HERE](https://pan.baidu.com/s/1PtwIYT_XT7dh7tni-j2QVw), password: 6qcu) into `./checkpoints/Net_epoch_best.pth`, modify the para path in train.py, and run infer method in train.py to generate prediction masks.
 We also provide the prediction masks at [HERE]().
 
 ## ✈ Quantitative Results
