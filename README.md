@@ -21,44 +21,40 @@ edge and segmentation knowledge interaction.
 <img src="imgs/ALRNet.png">
 
 ## ✈ Environmental Setups
-`PyTorch 2.2.0 + CUDA 12.1`. Please install corresponding PyTorch and CUDA versions.
+`PyTorch 1.8.0 + CUDA 11.1`. Please install corresponding PyTorch and CUDA versions.
 To create anaconda environment directly, please run flowing commands.
 ```
-conda create -n ALRNet python=3.9.20
+conda create -n ALRNet python=3.8.19
 conda activate ALRNet
 pip install -r requirements.txt
 ```
 For the requirements.txt, please click [HERE](https://drive.google.com/drive/folders/1fE_DCGKU3WA-HmZnqRzaazHe44Lx9RP2?usp=sharing).
-For more detail Vmamba environment configuration, please see [HERE]().
 
 ## ✈ Dataset and Training
 Please download the [DIS-5K dataset](https://github.com/xuebinqin/DIS) first and place them in the "**COD_dataset**" directory. The structure of the "**COD_dataset**" folder should be as follows:
-
 ```
-IS-Net
-└──DIS5K
-    └── DIS-TE1
-    ├── DIS-TE2
-    ├── DIS-TE3
-    ├── DIS-TE4
-    ├── DIS-TR
-    └── DIS-VD
-    	├──im
+COD_dataset
+└──train_set
+    └── edge
+    ├── gt
+    └── img
+└──test_set
+    └── CAMO
+        ├──im
     	├──gt
-    	└──mask #SAM MASK
+    ├── COD10K
+    ├── CHAMELEON
+    └── NC4K
 ```
-
 To train or validate the ALRNet, please run:
 ```
 python train.py
 ```
-
-VMamba-S backbone weights：[[baidu](https://pan.baidu.com/s/199p0p9OfkQXqWVGaxco1lg)，提取码：c5t4]
-
-Full Samba weights：[[baidu](https://pan.baidu.com/s/15787DVEmW59ftztopv-yMg)，提取码：bkvw]
+Download our ALRNet weights at [HERE](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)  into `sam/notebooks` and run  to generate SAM masks.
+We also provide the prediction masks at [HERE]().
 
 ## ✈ Quantitative Results
-<img src="imgs/results.png" style="width: 80%;"/>
+<img src="imgs/results.png"/>
 
 ## ✈ Visual Results
 <img src="imgs/visual results.png" style="width: 80%;"/>
