@@ -28,7 +28,7 @@ conda create -n ALRNet python=3.8.19
 conda activate ALRNet
 pip install -r requirements.txt
 ```
-For the requirements.txt, please click [HERE](https://drive.google.com/drive/folders/1fE_DCGKU3WA-HmZnqRzaazHe44Lx9RP2?usp=sharing).
+For the requirements.txt, please click [HERE](https://pan.baidu.com/s/15ympfR_ITEiypNdSAoj-HQ), password: 7qyn.
 
 ## ✈ Dataset and Training
 Please download the [dataset](https://drive.google.com/file/d/1M8-Ivd33KslvyehLK9_IUBGJ_Kf52bWG/view?usp=sharing) first and place them in the "**COD_dataset**" directory. The structure of the "**COD_dataset**" folder should be as follows:
@@ -50,6 +50,7 @@ To train or validate the ALRNet, please run:
 ```
 python train.py
 ```
+Download the Res2Net50 backbone weights at [HERE](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)
 Download our ALRNet weights at [HERE](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)  into `./checkpoints/Net_epoch_best.pth`, modify the para path in train.py, and run infer method in train.py to generate prediction masks.
 We also provide the prediction masks at [HERE]().
 
