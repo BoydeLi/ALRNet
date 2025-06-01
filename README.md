@@ -52,7 +52,7 @@ python train.py
 ```
 Download the Res2Net50 backbone weights at [HERE](https://pan.baidu.com/s/1e2iVJDZmDDHxYiP3o9fu8w), password: 2s5e.
 Download our ALRNet weights at ([HERE](https://pan.baidu.com/s/1PtwIYT_XT7dh7tni-j2QVw), password: 6qcu) into `./checkpoints/Net_epoch_best.pth`, modify the para path in train.py, and run infer method in train.py to generate prediction masks.
-We also provide the prediction masks at [HERE]().
+We also provide the prediction masks at [HERE](https://pan.baidu.com/s/1Lgec9jyK75epq6INGiJdzQ), password: rqbs.
 
 ## ✈ Quantitative Results
 <img src="imgs/results.png"/>
