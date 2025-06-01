@@ -50,7 +50,7 @@ To train or validate the ALRNet, please run:
 ```
 python train.py
 ```
-Download our ALRNet weights at [HERE](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)  into `sam/notebooks` and run  to generate SAM masks.
+Download our ALRNet weights at [HERE](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)  into `./checkpoints/Net_epoch_best.pth`, modify the path in train.py, and run infer method in train.py to generate prediction masks.
 We also provide the prediction masks at [HERE]().
 
 ## ✈ Quantitative Results
@@ -60,7 +60,7 @@ We also provide the prediction masks at [HERE]().
 <img src="imgs/visual results.png" style="width: 80%;"/>
 
 ## ✈ Citation
-If you use Samba in your research or wish to refer our work, please use the following BibTeX entry.
+If you use ALRNet in your research or wish to refer our work, please use the following BibTeX entry.
 ```
 @inproceedings{li2025camouflaged,
   title={Camouflaged Object Detection via Neural Architecture Search},
